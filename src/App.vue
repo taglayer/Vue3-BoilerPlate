@@ -1,7 +1,3 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue';
-</script>
-
 <template>
   <div class="bg-black">
     <a
@@ -27,6 +23,10 @@ import HelloWorld from './components/HelloWorld.vue';
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
+
+<script setup>
+import HelloWorld from './components/HelloWorld.vue';
+</script>
 
 <style scoped>
 .logo {

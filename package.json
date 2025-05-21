@@ -1,5 +1,5 @@
 {
-  "name": "nearbyobjects",
+  "name": "basic-vue-application",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,7 +17,8 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-vue": "^9.22.0",
     "vue": "^3.4.19",
-    "vue-eslint-parser": "^9.4.2"
+    "vue-eslint-parser": "^9.4.2",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
