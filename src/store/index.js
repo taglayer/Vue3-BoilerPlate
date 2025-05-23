@@ -1,8 +1,9 @@
 import { createStore } from 'vuex';
-import moduleBase from './modules/base';
+import moduleProducts from './modules/products';
 
 export default createStore({
   modules: {
-    base: moduleBase,
+    products: moduleProducts,
   },
+  namespaced: true,
 });
